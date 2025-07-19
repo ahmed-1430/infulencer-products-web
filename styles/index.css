@@ -214,6 +214,22 @@ header {
 }
 /* banner style End */
 
+/* brands logo styles */
+.brands {
+  width: 1110px;
+  height: 110px;
+  margin: 0 auto;
+  border-top: 3px solid #afafaf;
+  border-bottom: 3px solid #afafaf;
+  align-content: center;
+}
+.brands-logo {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  place-items: center;
+  }
+/* brands logo styles End */
+
 /* media query styles for x-small devices */
 @media screen and (max-width:576px) {
   .nav-items,
