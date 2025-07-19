@@ -192,6 +192,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin-top: 180px;
+  margin-bottom: 100px;
 }
 .banner-info {
     width: 582px;
@@ -213,3 +214,11 @@ header {
 }
 /* banner style End */
 
+/* media query styles for x-small devices */
+@media screen and (max-width:576px) {
+  .nav-items,
+  .nav-items ul {
+    flex-direction: column;
+  }  
+}
+/* media query styles for x-small devices End */
