@@ -345,7 +345,8 @@ header {
 /* media query styles for x-small devices */
 @media screen and (max-width:576px) {
   .nav-items,
-  .nav-items ul {
+  .nav-items ul,
+  .featred-container {
     flex-direction: column;
   }
   .banner {
@@ -375,6 +376,13 @@ header {
   .popular-collection {
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
+  }
+  .featred-container img {
+    text-align: center;
+  }
+  .featured-info, .featured-description {
+    width: auto;
+    margin: 10px;
   }
  
 }
