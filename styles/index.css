@@ -124,7 +124,23 @@ header {
     max-width: 1140px;
     margin: 0 auto;
 }
-
+.btn-primary {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 10px 24px;
+    align-items: center;
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    border-radius: 41px;
+    cursor: pointer;
+}
+.btn-primary i {
+    font-size: 1.3rem;
+    font-weight: 600;
+} 
 /* shared style End */
 
 /* navbar style */
@@ -163,4 +179,37 @@ header {
     cursor: pointer;
 }
 /* navbar style End */
+
+/* banner style */
+header {
+  background-image: url(../images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-size: 475px;
+  background-position:  right bottom;
+  
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 180px;
+}
+.banner-info {
+    width: 582px;
+}
+.banner-title {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 70px;
+    color: #3A3A3A;
+}
+.banner-description {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #3A3A3A;
+}
+.banner-image img {
+  width: 95%;
+  margin-right: 30px;  
+}
+/* banner style End */
 
