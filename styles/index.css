@@ -236,6 +236,13 @@ header {
 
 /* popular collection section style */
 .popular-collections {
+ 
+}
+.popular-collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 30px;
   max-width: 1047px;
   margin: 0 auto;
   margin-top: 100px;
@@ -245,6 +252,52 @@ header {
   font-weight: 700;
   text-align: center;
   margin-top: 30px;
+}
+.collection-card {
+  width: 329px;
+  height: 476px; 
+  padding: 16px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.15);
+}
+.card-title {
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 40px;
+  color: rgba(24, 25, 31, 1);
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.card-price {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  line-height: 150%;
+  margin: 0;
+  margin-top: 6px;
+}
+.collection-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+.card-ratings {
+  margin: 0;
+}
+.card-ratings i {
+  color: #FB8200;
+  margin: 0;  
+}
+.ratings-num {
+  font-size: 0.87rem;
+  font-weight: 700;
+  color: rgba(94, 99, 102, 1);
+}
+.card-description {
+  font-family: "Inter", sans-serif;
+  font-size: 0.87rem;
+  font-weight: 700;
+  letter-spacing: 1.8%;
+  line-height: 143%;
+  color: rgba(120, 120, 133, 1);
 }
 /* popular collection section style End */
 
