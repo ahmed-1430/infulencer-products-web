@@ -316,6 +316,32 @@ header {
 }
 /* popular collection section style End */
 
+/* featured section styles */
+.featred-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px auto;
+}
+.featured-info {
+  width: 610px;
+}
+.featured-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #0A0826;
+}
+.featured-description {
+  width: 501px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #6C6C6C;
+}
+#btn-2 {
+  border-radius: 0px;
+}
+/* featured section styles End */
+
 /* media query styles for x-small devices */
 @media screen and (max-width:576px) {
   .nav-items,
