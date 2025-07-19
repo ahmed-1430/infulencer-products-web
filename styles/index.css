@@ -234,6 +234,20 @@ header {
   }
 /* brands logo styles End */
 
+/* popular collection section style */
+.popular-collections {
+  max-width: 1047px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.polular-collection-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+}
+/* popular collection section style End */
+
 /* media query styles for x-small devices */
 @media screen and (max-width:576px) {
   .nav-items,
@@ -262,7 +276,7 @@ header {
   grid-template-columns: 1fr 1fr 1fr 1fr; 
   row-gap: 20px;
   place-items: center;
-  justify-content: center;
+  justify-items: center;
   }
  
 }
