@@ -235,9 +235,7 @@ header {
 /* brands logo styles End */
 
 /* popular collection section style */
-.popular-collections {
- 
-}
+
 .popular-collection {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -347,6 +345,10 @@ header {
   row-gap: 20px;
   place-items: center;
   justify-items: center;
+  }
+  .popular-collection {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
   }
  
 }
