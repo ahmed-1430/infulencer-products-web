@@ -219,6 +219,19 @@ header {
   .nav-items,
   .nav-items ul {
     flex-direction: column;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    width: auto;
+  }
+  .banner-info {
+    width: auto;
+    text-align: center;
   }  
+  header {
+    background-size: 100%;
+    background-position: top 410px center;
+  }
+ 
 }
 /* media query styles for x-small devices End */
