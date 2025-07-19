@@ -120,6 +120,10 @@
 }
 
 /* shared style */
+body {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 header {
     max-width: 1140px;
     margin: 0 auto;
@@ -247,6 +251,18 @@ header {
   header {
     background-size: 100%;
     background-position: top 410px center;
+  }
+  .brands {
+    width: auto;
+    height: auto;
+    gap: 20px;
+  }
+  .brands-logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  row-gap: 20px;
+  place-items: center;
+  justify-content: center;
   }
  
 }
